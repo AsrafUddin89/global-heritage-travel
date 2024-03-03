@@ -13,9 +13,28 @@
   }
   .banner{
     background-position: center;
+    height: auto;
   }
- .input-area{
-    display: flex;
+  .banner-title{
+    font-size: 1.5rem;
+    padding-top: 15px;
+  }
+  input{
+    width: 185px;
+    height: 35px;
+    column-gap: 10px;
+  }
+  .btn-primary{
+    width: 185px;
+    height: 35px;
+  }
+ .popular-section{
+    padding: 70px;
     flex-direction: column;
+ }
+ img{
+    width: 340px;
+    height: 300px;
+   
  }
 }

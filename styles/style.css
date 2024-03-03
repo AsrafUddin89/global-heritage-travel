@@ -9,6 +9,7 @@
     background-color: #FF5400;
     border-radius: 8px;
     border-style: none;
+    color: #FFF;
 }
 
 header {
@@ -72,4 +73,14 @@ input {
     border-radius:8px;
     border-style: none;
     text-align: center;
+}
+/*Popular Section styles*/
+.popular-section{
+    padding: 50px 240px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.popular-content{
+    
 }
