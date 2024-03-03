@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    header{
+        padding: 60px;
+        
+    }
+    
+    nav{
+        
+        flex-direction: column;  
+  }
+  nav li{
+    margin-right: 10px;
+  }
+  .banner{
+    background-position: center;
+  }
+ .input-area{
+    display: flex;
+    flex-direction: column;
+ }
+}

@@ -1,0 +1,75 @@
+* {
+    font-family: "Mulish", sans-serif;
+
+}
+/*shared button style*/
+.btn-primary{
+    width: 155px;
+    height: 45px;
+    background-color: #FF5400;
+    border-radius: 8px;
+    border-style: none;
+}
+
+header {
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2.1rem;
+    font-weight: 800;
+    color: #131318;
+
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424247;
+}
+
+.color-key {
+    color: #FF5400;
+}
+
+/*Banner section styles*/
+.banner{
+    height: 500px;
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 12px;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px; 
+}
+.banner-title{
+    font-weight: 800;
+    font-size: 4rem;
+    color: #FFF;
+    padding-top: 85px;
+}
+input {
+    width: 155px;
+    height: 45px;
+    border-radius:8px;
+    border-style: none;
+    text-align: center;
+}
